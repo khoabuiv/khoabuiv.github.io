@@ -4,3 +4,5 @@ plugins:
 
 title: [Khoa's Website]
 description: [This is a website]
+
+theme: jekyll-theme-minimal
