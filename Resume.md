@@ -2,8 +2,14 @@
 layout: default
 ---
 
-## Resume
+<centered> # Khoa Bui
 
-_yay_
+ +1 (587) 974-6826 
 
-[back](./)
+[Email](mailto:khoabuiv@gmail.com)
+
+</centered>
+
+## EDUCATION
+
+
