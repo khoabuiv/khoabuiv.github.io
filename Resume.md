@@ -10,9 +10,6 @@ layout: default
 
 Click [here](https://github.com/khoabuiv/khoabuiv.github.io/raw/main/Khoa_Resume.pdf) to download my resume
 
-<embed src="{{ site.github.resume_url }}" width="600" height="400" 
- type="application/pdf">
-
 ## Education
 
 ** Concordia University of Edmonton **                                                          _September 2018 - Present_
