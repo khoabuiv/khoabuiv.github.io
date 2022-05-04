@@ -8,7 +8,15 @@ layout: default
 
 [Email](mailto:khoabuiv@gmail.com)
 
+Click [here]() to download my resume
+
 </centered>
+
+testing embedding
+
+<embed src="{{ site.github.resume_url }}" width="500" height="375" 
+ type="application/pdf">
+
 
 ## EDUCATION
 
