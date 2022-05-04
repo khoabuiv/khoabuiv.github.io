@@ -2,3 +2,8 @@ title: Khoa Bui's Website
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+github:
+  resume: https://khoabuiv.github.io/Resume.html
+  previous_works: https://khoabuiv.github.io/Previous_Works.html
+  stuff_to_share: https://khoabuiv.github.io/another-page.html
+  email: mailto:khoabuiv@gmail.com
