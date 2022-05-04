@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<centered> # Khoa Bui
+# Khoa Bui
 
  +1 (587) 974-6826 
 
@@ -10,14 +10,9 @@ layout: default
 
 Click [here]() to download my resume
 
-</centered>
-
-testing embedding
-
-<embed src="{{ site.github.resume_url }}" width="500" height="375" 
+<embed src="{{ site.github.resume_url }}" width="600" height="400" 
  type="application/pdf">
 
 
-## EDUCATION
 
 
