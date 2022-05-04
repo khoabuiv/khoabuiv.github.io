@@ -12,36 +12,24 @@ Click [here](https://github.com/khoabuiv/khoabuiv.github.io/raw/main/Khoa_Resume
 
 ## Education
 
-**Concordia University of Edmonton**                                                          September 2018 - Present
-
-4th year, Mathematics and Information Technology Double Major                                                   GPA: 3.49.
-
-**University of Alberta**                                                                    September 2017 - May 2018.
+<dl>
+<dt>Concordia University of Edmonton                                                         September 2018 - May 2022</dt>
+<dd>4th year, Mathematics and Information Technology Double Major                                           GPA: 3.49.</dd>
+<dt>University of Alberta                                                                    September 2017 - May 2018</dt>
+<dd>_Tutor</dd>
+<dt>Concordia University of Edmonton</dt>
+</dl>
 
 ## Experience
 
-**Concordia University of Edmonton**                                                            October 2021 - Ongoing
-
-_Stacking for the Ultimate Placement Game_                                            _Supervised by Dr. Svenja Huntemann._
-
-**Concordia University of Edmonton**                                                            _October 2021 - May 2021_
-
-_Tutor_                                          
-
-**Concordia University of Edmonton**                                                                October 2021 - Ongoing
-
-_Elliptic Curves and Application in Cryptography_                                              _Supervised by Dr. Ha Tran._
-
-**Concordia University of Edmonton**                                                                May 2020 - July 2020
-
-_USRA 2020 PROJECT: The LLL Algorithm’s Behavior in Average_                                   _Supervised by Dr. Ha Tran._
-
-**Novaco Pharmaceuticals**                                                                          June 2019 - August 2019
-
-_Technical Assistant_
-
-**Novaco Pharmaceuticals**                                                                          June 2017 - August 2017
-_Accounting Assistant_
+<dl>
+<dt>Concordia University of Edmonton                                                           October 2021 - May 2022</dt>
+<dd>_Stacking for the Ultimate Placement Game_                                   _Supervised by Dr. Svenja Huntemann._</dd>
+<dt>Concordia University of Edmonton                                                         _May 2021 - July 2021_</dt>
+<dd>_Elliptic Curves and Application in Cryptography_                                              _Supervised by Dr. Ha Tran._</dd>
+<dt>Concordia University of Edmonton                                                              May 2020 - July 2020</dt>
+<dd>_USRA 2020 PROJECT: The LLL Algorithm’s Behavior in Average_                                   _Supervised by Dr. Ha Tran._</dd>
+</dl>
 
 ## Skills
 
