@@ -9,6 +9,7 @@ Hi, my name is, Khoa Bui. I'm a recently graduated university student major in m
 ## Personal Interests
 *   Mathematical Biology,
 *   Computational Biology,
+*   Cryptography,
 *   Game Theory,
 *   General Programming,
 *   Number Theory,
