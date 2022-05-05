@@ -39,6 +39,17 @@ a {
   text-decoration:none;
 }
 
+.drop-button {
+  color:#069;
+  cursor: pointer;
+}
+
+.drop_container {
+  color:rgb(0, 57, 85);
+  display: none;
+  background-color: rgb(1, 110, 164);
+}
+
 a:hover, a:focus {
   color:#069;
   font-weight: bold;
