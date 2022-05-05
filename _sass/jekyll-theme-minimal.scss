@@ -160,7 +160,11 @@ header .dropdown-content a {
   margin:0 0 20px;
 }
 
+
 header .dropdown-content a:hover {color: #069;}
+
+header .dropdown:hover .dropbtn {color: #069;}
+
 
 ul.downloads {
   list-style:none;
