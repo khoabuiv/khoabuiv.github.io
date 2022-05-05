@@ -26,4 +26,9 @@ My collaborated poster with Supragyapal Singh regarding our work on Elliptic Cur
 <embed src="https://khoabuiv.github.io/ECC%20Poster.pdf" width="500" height="500" 
  type="application/pdf">
 
-## 
+## Reinforcement Learning Based Artificial Intelligence to Play Ultimate Tic-Tac-Toe
+
+My undergraduate thesis poster in information technlogy. You can download it [here]()
+
+<embed src="https://khoabuiv.github.io/ECC%20Poster.pdf" width="500" height="500" 
+ type="application/pdf">
