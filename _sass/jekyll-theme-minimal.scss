@@ -129,7 +129,6 @@ header {
 header .dropbtn {
   background-color: white;
   color: #267CB9;
-  position: static;
   -webkit-font-smoothing:subpixel-antialiased;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 6px;
@@ -140,7 +139,6 @@ header .dropbtn {
 
 header .dropdown {
   display: inline;
-  position: static;
   margin:0 0 20px;
   padding-top: 6px;
 }
