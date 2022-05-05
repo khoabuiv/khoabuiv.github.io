@@ -61,12 +61,14 @@ a:hover small {
   color: white;
   border: none;
   margin:0 0 20px;
+  position:static;
 }
 
 .dropdown {
   margin:0 0 20px;
   text-decoration:none;  
   display: inline-block;
+  position:static;
 }
 
 .dropdown-content {
