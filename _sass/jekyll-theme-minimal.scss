@@ -56,40 +56,6 @@ a:hover small {
   color:#777;
 }
 
-.dropbtn {
-  background-color: white;
-  color: #267CB9;
-  border: none;  
-}
-
-.dropdown {
-  margin:0 0 20px;
-  text-decoration:none;  
-  display: none;
-  position:static;
-  padding:0
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  box-shadow: rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: #267CB9;
-  text-decoration: none;
-  display: none;
-}
-
-.dropdown-content a:hover {color: #069;}
-
-.dropdown:hover .dropbtn {color: #069;}
-
-
-
 .wrapper {
   width:860px;
   margin:0 auto;
@@ -272,6 +238,26 @@ footer {
   header a small {
     display:inline;
   }
+
+  header .dropbtn {
+    display:inline;
+  }
+
+  header .dropdown-content {
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  header .dropdown-content a {
+    color: #267CB9;
+  }
+
+  header .dropdown-content a:hover {color: #069;}
+
+  header .dropdown:hover .dropbtn {color: #069;}
+
+
 
   header ul {
     position:absolute;
