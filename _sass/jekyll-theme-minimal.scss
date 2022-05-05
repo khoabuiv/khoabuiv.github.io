@@ -59,7 +59,8 @@ a:hover small {
 .dropbtn {
   background-color: white;
   color: #267CB9;
-  border: none;  
+  border: none; 
+  padding:0 
 }
 
 .dropdown {
@@ -67,6 +68,7 @@ a:hover small {
   text-decoration:none;  
   display: none;
   position:static;
+  padding:0
 }
 
 .dropdown-content {
