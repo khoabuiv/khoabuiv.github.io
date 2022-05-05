@@ -65,7 +65,7 @@ a:hover small {
 .dropdown {
   margin:0 0 20px;
   text-decoration:none;  
-  display: inline-block;
+  display: none;
   position:static;
 }
 
@@ -80,12 +80,12 @@ a:hover small {
 .dropdown-content a {
   color: #267CB9;
   text-decoration: none;
-  display: block;
+  display: none;
 }
 
-.dropdown-content a:hover {background-color: #dddddda3;}
+.dropdown-content a:hover {color: #069;}
 
-.dropdown:hover .dropbtn {background-color: #267cb99f;}
+.dropdown:hover .dropbtn {color: #069;}
 
 
 
