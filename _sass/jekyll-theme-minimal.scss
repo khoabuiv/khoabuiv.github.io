@@ -243,6 +243,10 @@ footer {
     display:inline;
   }
 
+  header .dropdown {
+    display:inline;
+  }
+
   header .dropdown-content {
     background-color: #fff;
     box-shadow: rgba(0,0,0,0.2);
@@ -254,6 +258,8 @@ footer {
   }
 
   header .dropdown-content a:hover {color: #069;}
+
+  header .dropdown:hover .dropdown-content {display: block;}
 
   header .dropdown:hover .dropbtn {color: #069;}
 
