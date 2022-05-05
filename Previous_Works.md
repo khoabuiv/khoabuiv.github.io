@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# Previous Works
-
 ## Lattice Reduction Attacks on Low Exponent RSA Cryptosystem
 
 This is my undergraduate thesis in mathematics. You can download the thesis [here](https://github.com/khoabuiv/khoabuiv.github.io/raw/main/Math%20Thesis.pdf).
