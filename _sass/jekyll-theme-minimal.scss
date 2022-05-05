@@ -240,15 +240,18 @@ footer {
   }
 
   header .dropbtn {
+    float:none;
+    width:auto;
     background-color: white;
     color: #267CB9;
     position: static;
-
     display:inline;
   }
 
   header .dropdown {
     display:inline;
+    position: static;
+    
   }
 
   header .dropdown-content {
