@@ -39,16 +39,6 @@ a {
   text-decoration:none;
 }
 
-.drop-button {
-  color:#069;
-  cursor: pointer;
-}
-
-.drop_container {
-  color:rgb(0, 57, 85);
-  display: none;
-  background-color: rgb(1, 110, 164);
-}
 
 a:hover, a:focus {
   color:#069;
@@ -65,6 +55,37 @@ a small {
 a:hover small {
   color:#777;
 }
+
+.dropbtn {
+  background-color: #267CB9;
+  color: white;
+  border: none;
+}
+
+.dropdown {
+  text-decoration:none;  
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #267CB9;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #dddddda3;}
+
+.dropdown:hover .dropbtn {background-color: #267cb99f;}
+
+
 
 .wrapper {
   width:860px;
