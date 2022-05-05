@@ -131,6 +131,8 @@ header .dropbtn {
   color: #267CB9;
   display:inline;
   position: static;
+  -webkit-font-smoothing:subpixel-antialiased;
+  float: left;
 }
 
 header .dropdown {
