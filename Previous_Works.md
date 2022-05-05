@@ -8,7 +8,7 @@ layout: default
 
 This is my undergraduate thesis in mathematics. You can download it [here](https://github.com/khoabuiv/khoabuiv.github.io/raw/main/Math%20Thesis.pdf).
 
-<embed src="https://drive.google.com/file/d/1zV21Z-4LBzirz8LNsr0ZaSuF3OdehR8G/view?usp=sharing" width="500" height="500" 
+<embed src="https://khoabuiv.github.io/Math%20Thesis.pdf" width="500" height="500" 
  type="application/pdf">
 
 
@@ -16,5 +16,14 @@ This is my undergraduate thesis in mathematics. You can download it [here](https
 
 This is my undergraduate thesis poster in mathematics. You can download it [here](https://github.com/khoabuiv/khoabuiv.github.io/raw/main/Math%20Thesis%20Poster.pdf).
 
-<embed src="https://drive.google.com/file/d/1cS86h51AHRUkceAcrAK3eukAKHLhVyWt/view?usp=sharing" width="500" height="500" 
+<embed src="https://khoabuiv.github.io/Math%20Thesis%20Poster.pdf" width="500" height="500" 
  type="application/pdf">
+
+## Keeping your data safe using Number Theory and Abstract Algebra
+
+My collaborated poster with Supragyapal Singh regarding our work on Elliptic Curve Cryptography under the supervision of [Dr. Ha Tran](https://sites.google.com/site/hatrannguyenthanh/home) at Concordia University of Edmonton. You can download it [here](https://github.com/khoabuiv/khoabuiv.github.io/raw/main/ECC%20Poster.pdf)
+
+<embed src="https://khoabuiv.github.io/ECC%20Poster.pdf" width="500" height="500" 
+ type="application/pdf">
+
+## 
