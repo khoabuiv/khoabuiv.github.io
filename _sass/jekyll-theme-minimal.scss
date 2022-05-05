@@ -133,8 +133,10 @@ header .dropbtn {
   position: static;
   -webkit-font-smoothing:subpixel-antialiased;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight:400;
-  padding:50px;
+  border:1px solid #e5e5e5;
+  border-width:1px 0;
+  padding:20px 0;
+  margin:0 0 20px;
 }
 
 header .dropdown {
@@ -263,10 +265,10 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
+      border:1px solid #e5e5e5;
+      border-width:1px 0;
+      padding:20px 0;
+      margin:0 0 20px;
   }
 
   header a small {
