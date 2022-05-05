@@ -132,7 +132,7 @@ header .dropbtn {
   position: static;
   -webkit-font-smoothing:subpixel-antialiased;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding-top:6px;
+  padding-top: 6px;
   margin:0 0 20px;
   border: none;
 }
@@ -146,6 +146,10 @@ header .dropdown-content {
   display: none;
   background-color: #f1f1f1;
   z-index: 1;
+  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding-top: 6px;
+  margin:0 0 20px;
+  border: none;
 }
 
 header .dropdown-content a {
