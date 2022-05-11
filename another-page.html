@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+
+
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+
+        <p class="view"><a href="{{ site.github.resume }}">Resume</a></p>
+        <p class="view"><a href="{{ site.github.previous_works }}">Previous Works</a></p>
+
+          <button class="dropbtn">Stuff to Share</button>
+          <div class="dropdown-content">
+            <p><a class="view" href="{{ site.github.fractal }}">Constructing fractals</a></p>
+            <p><a class="view" href="{{ site.github.fractal }}">test1</a></p>
+            <p><a class="view" href="{{ site.github.test }}">test2</a></p>
+            <p><a class="view" href="{{ site.github.test }}">test3</a></p>
+          </div>
+
+        <script>
+          /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+          /* Source: https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp */
+          var dropdown = document.getElementsByClassName("dropbtn");
+          var i;
+          for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var dropdownContent = this.nextElementSibling;
+              if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+              } else {
+                dropdownContent.style.display = "block";
+              }
+            });
+          }
+          </script>
+      
+        <p class="view"><a href="{{ site.github.owner_url }}">Github</a></p>
+
+        <p class="view"><a href="mailto:khoabuiv@gmail.com">Contact Me</a></p>        
+
+      </header>
+      <section>
+
+      <py-script>
+      from datetime import datetime
+      now = datetime.now()
+      now.strftime("%m/%d/%Y, %H:%M:%S")
+      </py-script>
+
+      </section>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
