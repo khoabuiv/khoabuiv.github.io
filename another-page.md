@@ -2,5 +2,9 @@
 layout: post
 ---
 
-## Welcome to another page
+```{r}
+library(reticulate)
+x = 42
+print(x)
+```
 
