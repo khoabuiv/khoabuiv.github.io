@@ -4,7 +4,9 @@ layout: default
 
 ## Welcome to another page
 
-<!DOCTYPE html>
+Hello world!
+This is the current date and time, as computed by Python:
+
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -14,16 +16,15 @@ layout: default
 
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+
     <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
   </head>
 
   <body>
-    Hello world! <br>
-    This is the current date and time, as computed by Python:
     <py-script>
-from datetime import datetime
-now = datetime.now()
-now.strftime("%m/%d/%Y, %H:%M:%S")
+      from datetime import datetime
+      now = datetime.now()
+      now.strftime("%m/%d/%Y, %H:%M:%S")
     </py-script>
   </body>
 </html>
