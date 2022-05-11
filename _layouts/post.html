@@ -1,14 +1,27 @@
 ---
 layout: default
 ---
+   
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
+    <title>PyScript Hello World</title>
 
-<p class="view">by {{ page.author | default: site.author }}</p>
 
-{{content}}
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+      </head>
 
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
+  <body>
+    Hello world! <br>
+    This is the current date and time, as computed by Python:
+    <py-script>
+      from datetime import datetime
+      now = datetime.now()
+      now.strftime("%m/%d/%Y, %H:%M:%S")
+    </py-script>
+  </body>
+</html>
