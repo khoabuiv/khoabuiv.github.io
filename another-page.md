@@ -7,6 +7,7 @@ This is the current date and time, as computed by Python:
 
 
 <html lang="en">
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
     <py-script>
 import matplotlib.pyplot as plt
 import numpy as np
