@@ -7,10 +7,27 @@ This is the current date and time, as computed by Python:
 
 
 <html lang="en">
+    <head>
       <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-    <py-script>
-from datetime import datetime
-now = datetime.now()
-now.strftime("%m/%d/%Y, %H:%M:%S")
+      <py-env>
+        - numpy
+        - matplotlib
+      </py-env>
+    </head>
+
+  <body>
+    <h1>Let's plot random numbers</h1>
+    <div id="plot"></div>
+    <py-script output="plot">
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.random.randn(1000)
+y = np.random.randn(1000)
+
+fig, ax = plt.subplots()
+ax.scatter(x, y)
+fig
     </py-script>
+  </body>
 </html>
