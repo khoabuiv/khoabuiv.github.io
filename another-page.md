@@ -8,19 +8,9 @@ This is the current date and time, as computed by Python:
 
 <html lang="en">
     <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-    <py-env>
-    - numpy
-    - matplotlib
-    </py-env>
     <py-script output="plot">
-import matplotlib.pyplot as plt
-import numpy as np
-
-x = np.random.randn(1000)
-y = np.random.randn(1000)
-
-fig, ax = plt.subplots()
-ax.scatter(x, y)
-fig
+from datetime import datetime
+now = datetime.now()
+now.strftime("%m/%d/%Y, %H:%M:%S")
     </py-script>
 </html>
