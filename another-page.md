@@ -15,9 +15,7 @@ This is the current date and time, as computed by Python:
     </head>
 
   <body>
-    <h1>Let's plot random numbers</h1>
-    <div id="plot"></div>
-    <py-script output="plot">
+    <py-script>
 import pygame
 pygame.init()
 scr = pygame.display.set_mode((600, 500))
