@@ -18,5 +18,4 @@ fig, ax = plt.subplots()
 ax.scatter(x, y)
 fig
     </py-script>
-  </body>
 </html>
