@@ -6,8 +6,8 @@ Hello world!
 This is the current date and time, as computed by Python:
 
 
-<html>
-    <py-script output="plot">
+<html lang="en">
+    <py-script>
 import matplotlib.pyplot as plt
 import numpy as np
 
