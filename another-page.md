@@ -3,31 +3,7 @@ layout: post
 ---
 
 Hello world!
-This is the current date and time, as computed by Python:
+Replit Testing:
 
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@khoabui1999/Stacking-Game-Projects"></iframe>
 
-<html lang="en">
-    <head>
-      <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-      <py-env>
-        - pygame
-      </py-env>
-    </head>
-
-  <body>
-    <py-script>
-import pygame
-pygame.init()
-scr = pygame.display.set_mode((600, 500))
-running = True
-while running:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            running = False
-    scr.fill((255, 255, 255))
-    pygame.draw.circle(scr, (200, 0, 0), (250, 250), 80)
-    pygame.display.flip()
-pygame.quit()
-    </py-script>
-  </body>
-</html>
