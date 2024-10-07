@@ -24,35 +24,8 @@
 
         <p class="view"><a href="{{ site.github.resume }}">Resume</a></p>
         <p class="view"><a href="{{ site.github.previous_works }}">Previous Works</a></p>
-
-        <button class="dropbtn">Stuff to Share</button>
-        <div class="dropdown-content">
-          <p><a class="view" href="{{ site.github.fractal }}">Constructing fractals</a></p>
-          <p><a class="view" href="{{ site.github.fractal }}">test1</a></p>
-          <p><a class="view" href="{{ site.github.test }}">test2</a></p>
-          <p><a class="view" href="{{ site.github.test }}">test3</a></p>
-        </div>
-
-      <script>
-        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-        /* Source: https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp */
-        var dropdown = document.getElementsByClassName("dropbtn");
-        var i;
-        for (i = 0; i < dropdown.length; i++) {
-          dropdown[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var dropdownContent = this.nextElementSibling;
-            if (dropdownContent.style.display === "block") {
-              dropdownContent.style.display = "none";
-            } else {
-              dropdownContent.style.display = "block";
-            }
-          });
-        }
-        </script>
-      
+        <p class="view"><a href="{{ site.github.technical_notes }}">Technical Notes</a></p>
         <p class="view"><a href="{{ site.github.owner_url }}">Github</a></p>
-
         <p class="view"><a href="mailto:khoabuiv@gmail.com">Contact Me</a></p>        
 
       </header>
