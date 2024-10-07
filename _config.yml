@@ -5,7 +5,7 @@ google_analytics:
 theme: jekyll-theme-minimal
 github:
   resume: https://khoabuiv.github.io/Resume.html
-  previous_works: https://khoabuiv.github.io/Previous_Works.html
-  fractal: https://khoabuiv.github.io/Fractal_Construction.html
+  previous_works: https://khoabuiv.github.io/Academic Works.md
+  notes: https://khoabuiv.github.io/Notes.html
   email: mailto:khoabuiv@gmail.com
   test: https://khoabuiv.github.io/another-page.html
