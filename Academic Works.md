@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Previous Works
+# Academic Works
 
 ## Lattice Reduction Attacks on Low Exponent RSA Cryptosystem
 
