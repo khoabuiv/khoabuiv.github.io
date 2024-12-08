@@ -2,25 +2,18 @@
 layout: default
 title: Calculator
 ---
-<h1>Simple Calculator</h1>
+<h1>Risk Analysis Calculator</h1>
 <form id="calculator">
-    <input type="number" id="num1" placeholder="Number 1">
-    <input type="number" id="num2" placeholder="Number 2">
-    <select id="operation">
-        <option value="add">+</option>
-        <option value="subtract">-</option>
-        <option value="multiply">*</option>
-        <option value="divide">/</option>
-    </select>
+    <input type="number" id="assetValue" placeholder="Asset Value"><br>
+    <input type="number" id="exposureFactor" placeholder="Exposure Factor "><br>
     <button type="button" onclick="calculate()">Calculate</button>
 </form>
 <p id="result"></p>
 <script>
     function calculate() {
-        const num1 = parseFloat(document.getElementById('num1').value);
-        const num2 = parseFloat(document.getElementById('num2').value);
-        const operation = document.getElementById('operation').value;
-        let result;
+        const assetValue = parseFloat(document.getElementById('assetValue').value);
+        const exposureFactor = parseFloat(document.getElementById('exposureFactor').value);
+        let result = assetValue * exposureFactor;
 
         switch (operation) {
             case 'add':

@@ -6,7 +6,6 @@ theme: jekyll-theme-minimal
 github:
   resume: https://khoabuiv.github.io/Resume.html
   linkedin: https://www.linkedin.com/in/khoavanbui/
-  academic_works: https://khoabuiv.github.io/academic_works.md
-  technical_notes: https://khoabuiv.github.io/Notes.md
-  risk_calculator: https://khoabuiv.github.io/riskCalculator.md
+  risk_calculator: https://khoabuiv.github.io/riskCalculator.html
+  academic_works: https://khoabuiv.github.io/academic_works.html
   email: mailto:khoabuiv@gmail.com
