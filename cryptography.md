@@ -12,4 +12,5 @@ Suppose we want to factor 2813, then you would check if 2813 is divisible by pri
 
 ## Operation:
 RSA algorithm hinges around the following equation:
-$$ (m^{e})^{d} \equiv m \% n $$
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
