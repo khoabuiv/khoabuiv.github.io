@@ -8,3 +8,7 @@ layout: default
 * ansible-navigator: It's like Vim but for ansible
 
 ## Lab Setup
+
+```
+    Testing testing
+```
