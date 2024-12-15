@@ -6,11 +6,11 @@ layout: default
 # About me
 I'm a cloud-native data infrastructure professional specializing in database administration. I am formally trained in mathematics, information technologies, and cybersecurity. Professionally, I have experience in all things when it comes to MySQL and MongoDB particularly in designing , administering, monitoring and optimizing relational databases and non-relational databases.
 
-# My Work Philosophy
+# Do It For The Love Of The Game 
 
 > "Once you decide on your occupation, you must immerse yourself in your work. You have to fall in love with your work."  - Jiro Ono
 
-I approach my work as my craft, something to perfect on and to be the best that I can be. To do this, I continuously immerse myself in my work to become the best database administrator that I can be. 
+I approach my work as my craft, something to perfect on and to be the best that I can be. To do this, I continuously immerse myself in my work to become the best that I can be. 
 
 # Skillset: 
 ## Database Technologies:
