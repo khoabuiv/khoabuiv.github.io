@@ -12,7 +12,7 @@ I'm a cloud-native data infrastructure professional specializing in database adm
 
 I approach my work as my craft, something to perfect on and to be the best that I can be. To do this, I continuously immerse myself in my work to become the best that I can be. 
 
-<img src="https://khoabuiv.github.io/prayge.jpg"
+<img src="https://khoabuiv.github.io/prayge.jpg">
 
 # Skillset: 
 ## Database Technologies:
