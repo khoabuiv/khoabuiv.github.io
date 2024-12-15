@@ -8,3 +8,4 @@ Inspired by Lu Wilson(TodePond)'s [What it means to be open](https://www.youtube
 
 * [Cryptography](https://khoabuiv.github.io/cryptography.html)
 * [Ansible](https://khoabuiv.github.io/ansible.html)
+* [Security Operations]()
