@@ -10,9 +10,10 @@ I'm a cloud-native data infrastructure professional specializing in database adm
 
 > "Once you decide on your occupation, you must immerse yourself in your work. You have to fall in love with your work."  - Jiro Ono
 
-I approach my work as my craft, something to perfect on and to be the best that I can be. To do this, I continuously immerse myself in my work to become the best that I can be. 
-
 <img src="https://khoabuiv.github.io/prayge.jpg">
+
+
+I approach my work as my craft, something to perfect on and to be the best that I can be. To do this, I continuously immerse myself in my work to become the best that I can be. 
 
 # Skillset: 
 ## Database Technologies:
