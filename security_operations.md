@@ -34,4 +34,4 @@ layout: default
 ## XML external entity (XXE) injection
 
 - **Extensible Markup Language (XML)**: a commonly used method to transport and store data in a structured format that humans and machines can easily understand.
-- **Document Type Definition (DTD)**: 
+- **Document Type Definition (DTD)**: a set of rules that defines the structure of an XML document
