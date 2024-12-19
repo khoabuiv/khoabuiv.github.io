@@ -89,3 +89,5 @@ Then follow by a system reboot.
 **Note**: best practice to mount **/var** as a separate filesystem. **/var/spool** is for local files for processes such as mail, printing, and cronjobs. 
 
 - **/run Directory**: Store **transient files**, files that contain runtime information. Generally implemented as an empty mount point, with a tmpfs ram disk (like **/dev/shm**) mounted there at runtime. 
+
+- <code> sudo du -shxc --exclude=proc * </code> to show data usage of the directories. 
