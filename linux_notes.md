@@ -48,4 +48,44 @@ Also includes the following files for debugging:
     - **config**: Used to configure the kernel compilation.
     - **System.map**: Kernel symbol table, used for debugging. 
 
-- **/dev Directory**: contains **special device files** which represent devices built into or connected to the system.
+- **/dev Directory**: Contains **special device files** which represent devices built into or connected to the system. The files represent byte-stream and block I/O devices
+
+- **/etc Directory**: Contains machine-local configuration files and some startup scripts. Should not contain executable binary programs. It has the following important subdirectories:
+    - **/etc/skel**: Contains **skeleton** files used to populate newly created home directories.
+    - **/etc/sysstemd**: Contains or points to configuration scripts for starting, stopping, and controlling system services when using systemd
+    - **/etc/init.d**: Contains startup and shutdown scripts for when using System V initialization.
+
+- **/home Directory**: All personal, configuration, data, and executable progarams are placed under this directory. Subdirectories contain content for various groups and users. You can use <code>$HOME</code> or <code>~</code> to get to an user's home directory. 
+
+- **/lib and /lib64 Directories**: Contain libarries needed to execute the binaries in /bin and /sbin. These libaries are used for booting system and executing commands within root filesystem.
+**Note**: Some newer distributions just have one directory for lib and use symbolic links to preserve the two directories view. 
+
+- **/media Directory**: Used to mount filesystems on removable media. 
+
+- **/mnt Directory**: Use for temporarily mount a filesystem. Use for network filesystems like: NFS; Samba; CIFS; AFS.
+
+- **/opt Directory**: Designed for software packages that wish to keep all or most of their files in one isolated place. Directories: **/opt/bin**, **/opt/doc**, **/opt/include**, **/opt/info**, **/opt/lib**, and **/opt/man** are reserved for local sys-admin use. 
+
+- **/proc Directory**: The mount point for pseudo-filesystem, where all information resides only in memory and not disk. The entries are considered to be **virtual files** which can be listed as zero bytes, but contain large amount of information. <br>
+**Note**: Important pseudo-files: **/proc/interrupts**, **/proc/meminfo**, **/proc/mounts**, **/proc/partitions**, **/proc/filesystems**. and **/proc/sys/**.
+    - **/proc/scsi/** contains information for all physical SCSI devices. Likewise, the **process directories** contain information about each running process on the system.
+
+- **/sys Directory**: The mount point for the **sysfs** pseudo-filesystem where all information resides only in memory. Empty for non-running system. **sysfs** is used to gather information about the system, and modify its behavior while running. 
+
+- **/root Directory**: Home directory for root user. 
+
+- **/sbin Directory**: Contains binaries essential for booting, restoring, recovering, and/or repairing to those in /bin directory.
+
+- **/srv Directory**: Contains site-specific data served by the system. Ubuntu and Red Hat has **/srv** empty by default. 
+
+- **/tmp Directory**: Used to store temporary files, and can be accessed by any other user or application. Avoid creating large files on **/tmp** as they occupy space in memory rather than disk. 
+- To cancel policy for storing **/tmp** on disk, run: <br>
+<code> sudo systemctl mask tmp.mount </code> <br>
+Then follow by a system reboot. 
+
+- **/usr Directory**: Can be thought of as a secondary hierarchy. Used for files not needed for system booting. Does not need to reside in the same partition as the root directory, and can be shared across a network. Software packages should not create subdirectories under **/usr**. Use symbolic links to other locations for compability. Typically only contains read-only data
+
+- **/var Directory**: Contaions variable data files that change frequently during system operation. These includes: log files; spool directories and files; administrative data files; temporary files such as cache contents. <br>
+**Note**: best practice to mount **/var** as a separate filesystem. **/var/spool** is for local files for processes such as mail, printing, and cronjobs. 
+
+- **/run Directory**: Store **transient files**, files that contain runtime information. Generally implemented as an empty mount point, with a tmpfs ram disk (like **/dev/shm**) mounted there at runtime. 
