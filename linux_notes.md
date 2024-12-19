@@ -91,3 +91,5 @@ Then follow by a system reboot.
 - **/run Directory**: Store **transient files**, files that contain runtime information. Generally implemented as an empty mount point, with a tmpfs ram disk (like **/dev/shm**) mounted there at runtime. 
 
 - <code> sudo du -shxc --exclude=proc * </code> to show data usage of the directories. 
+
+- Directories that contain special entries which abstract system properties, instead of data stored on the disk: **/dev**; **/proc**; **/sys**. 
