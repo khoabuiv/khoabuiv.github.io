@@ -124,3 +124,14 @@ $ scp -r some_dir farflung.com:/tmp/some_dir
 - Full graphical desktop using VNC(Virtual Network Computing)
 - Implementation with **tigervnc**
 
+
+### Group Management
+
+- **Group**: A collection of users. 
+- Groups are defined in **/etc/group** with this format: <code> groupname:password:GID:user1,user2,... </code> where user is comma seperated. Group password can be set only if **/etc/gshadow** exists. 
+- An user has one primary group, and between 0 and 15 secondary groups. 
+- Group management with these commands:
+    - **groupadd**: Add a new group.
+    - **groupmod**: Modify a group's attribute.
+    - **groupdel**: Remove a group.
+    - **usermod**: Manage an user's group membership. 
