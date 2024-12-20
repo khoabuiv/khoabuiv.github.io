@@ -1,6 +1,5 @@
 ---
-title: Home
-layout: default
+layout: post
 ---
 ### General Notes:
 - Linux consists of one big logical filesystem tree. 

@@ -114,3 +114,13 @@ $ scp file.txt farflung.com:/tmp
 $ scp file.tex student@farflung.com/home/student
 $ scp -r some_dir farflung.com:/tmp/some_dir
 </code>
+
+- SSH order of configuration files:
+    1. Command line options
+    2. **~/.ssh/config**
+    3. **/etc/ssh/ssh_config**
+
+#### Remote Graphical Login
+- Full graphical desktop using VNC(Virtual Network Computing)
+- Implementation with **tigervnc**
+
