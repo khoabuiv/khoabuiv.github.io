@@ -126,7 +126,6 @@ $ scp -r some_dir farflung.com:/tmp/some_dir
 
 
 ### Group Management
-
 - **Group**: A collection of users. 
 - Groups are defined in **/etc/group** with this format: <code> groupname:password:GID:user1,user2,... </code> where user is comma seperated. Group password can be set only if **/etc/gshadow** exists. 
 - An user has one primary group, and between 0 and 15 secondary groups. 
@@ -135,3 +134,8 @@ $ scp -r some_dir farflung.com:/tmp/some_dir
     - **groupmod**: Modify a group's attribute.
     - **groupdel**: Remove a group.
     - **usermod**: Manage an user's group membership. 
+
+### File Management and Ownership
+- **umask**: Shows the current default setting. 
+    - Can be show with <code> umask -S </code>
+    - Modify with: <code> umask u=r, g=rw, o=rwx </code>
