@@ -139,3 +139,4 @@ $ scp -r some_dir farflung.com:/tmp/some_dir
 - **umask**: Shows the current default setting. 
     - Can be show with <code> umask -S </code>
     - Modify with: <code> umask u=r, g=rw, o=rwx </code>
+- **Filesystem Access Control List(ACLs)**: extend the simpler user, group, and world system. Using **getfacl/setfacl**

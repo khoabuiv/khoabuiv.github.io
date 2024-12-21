@@ -19,8 +19,10 @@ The line has the following meaning:
 
 3. Add the following to <code> PATH=$PATH:/usr/sbin:/sbin </code> to the <code> .bashrc </code> file in the home directory. 
 
-## [Filesystem Tree Layout](https://khoabuiv.github.io/filesystem_tree_layout.html)
+## [Filesystem Tree Layout](https://khoabuiv.github.io/linux/filesystem_tree_layout.html)
 
-## [User Environment](https://khoabuiv.github.io/user_environment.html)
+## [User Environment](https://khoabuiv.github.io/linux/user_environment.html)
 
-## [Account Management](https://khoabuiv.github.io/linux_account_management.html)
+## [Account Management](https://khoabuiv.github.io/linux/linux_account_management.html)
+
+## [Package Management](https://khoabuiv.github.io/linux/package_management.html)
