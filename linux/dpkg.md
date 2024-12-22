@@ -1,6 +1,7 @@
 ---
 layout: post
 ---
+## Debian Package(dpkg)
 - Package files have a **.deb** suffix and the DPKG database resides in **/var/lib/dpkg** directory.
 - Naming convention for a binary file: 
 <code> <name>_<version>-<revision_number>_<architecture>.deb </code>
