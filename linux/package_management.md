@@ -23,23 +23,8 @@ layout: post
     - **Meta-Packages**: groups of associated packages that collect everything needed to install a relatively large subsystem, such as a desktop environment, or an office suite, etc.
 - **Red Hat Package Manager(RPM)**: Used by Red Hat derived distributions like RHEL, Fedora, CentOS, SUSE. 
 
-- **Debian Package(dpkg)**: Used by all Debian derived distributions. 
-    - Package files have a **.deb** suffix and the DPKG database resides in **/var/lib/dpkg** directory.
-    - Naming convention for a binary file: 
-    <code> <name>_<version>-<revision_number>_<architecture>.deb </code>
-    - List all packages installed: <br>
-    <code> dpkg -l </code> <br>
-    - List files installed in the package: <br>
-    <code> dpkg -L {package} </code> <br>
-    - Show a package's information: <br>
-    <code> dpkg -s {package} </code> <br>
-    - To install or upgrade a package: <br>
-    <code> sudo dpkg -i {package} </code> <br>
-    - To remove a package, but keep its config file: <br> 
-    <code> sudo dpkg -r {package} </code> <br>
-    - To remove a package including its config file: <br> 
-    <code> sudo dpkg -P {package} </code> <br>
-    - To find what package a file belongs to: <br>
-    <code> dpkg -S {file_name} </code> <br>
+
+- **[Debian Package(dpkg)](https://khoabuiv.github.io/dpkg.html)**: Used by all Debian derived distributions. 
 
 
+- **[APT(Advanced Packaging Tool)](https://khoabuiv.github.io/apt.html)**: is a set of programs provide a higher level of intelligent services for using the underlying dpkg program, and plays the same role as dnf on Red Hat-based systems.
