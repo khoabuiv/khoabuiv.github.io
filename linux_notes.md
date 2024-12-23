@@ -26,3 +26,5 @@ The line has the following meaning:
 ## [Account Management](https://khoabuiv.github.io/linux/linux_account_management.html)
 
 ## [Package Management](https://khoabuiv.github.io/linux/package_management.html)
+
+## [Version Control with Git](https://khoabuiv.github.io/linux/git.html)

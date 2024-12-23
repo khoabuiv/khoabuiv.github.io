@@ -22,6 +22,6 @@ layout: post
     - **Architecture-Independent Packages**: contain files and scripts that run under script interpreters, documentation, and configuration files.
     - **Meta-Packages**: groups of associated packages that collect everything needed to install a relatively large subsystem, such as a desktop environment, or an office suite, etc.
 - **[Red Hat Package Manager(RPM)](https://khoabuiv.github.io/linux/rpm.html)**: Used by Red Hat derived distributions like RHEL, Fedora, CentOS, SUSE. 
-- **[dnf]: 
+- **[dnf](https://khoabuiv.github.io/linux/dnf.html)**: Front end to RPM, but also has capabilities to retrieve packages from one or more remote repositories. 
 - **[Debian Package(dpkg)](https://khoabuiv.github.io/linux/dpkg.html)**: Used by all Debian derived distributions. 
 - **[APT(Advanced Packaging Tool)](https://khoabuiv.github.io/linux/apt.html)**: a set of programs provide a higher level of intelligent services for using the underlying dpkg program, and plays the same role as dnf on Red Hat-based systems.
