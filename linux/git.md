@@ -44,3 +44,4 @@ layout: post
     config --global user.email "uname@example.com" <br> 
     config --global init.defaultBranch main <br>
 </code>
+Settings get written to **./gitconfig** file
