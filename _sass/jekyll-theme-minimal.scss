@@ -72,17 +72,14 @@ code, pre {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color: #f8f8f2; /* Light text for code */
   background-color: #2d2d2d; /* Dark background for code block */
-  padding: 10px;
-  border: 1px solid #444; /* Slight border for distinction */
-  border-radius: 5px;
   display: block;
   white-space: pre-wrap;}
 
 pre {
   padding:8px 15px;
-  background: #2d2d2d;
+  background: #f8f8f8;
   border-radius:5px;
-  border:1px solid #e5e5e5;
+  border:1px solid #2d2d2d;
   overflow-x: auto;
 }
 
