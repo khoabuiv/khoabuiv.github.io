@@ -72,7 +72,6 @@ code, pre {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color: #f8f8f2; /* Light text for code */
   background-color: #2d2d2d; /* Dark background for code block */
-  padding: 10px;
   border: 1px solid #444; /* Slight border for distinction */
   border-radius: 5px;
   display: block;
@@ -296,6 +295,10 @@ footer {
 
   header ul, header p.view {
     position:static;
+  }
+
+  pre, code {
+    word-wrap:normal;
   }
 
   header .dropbtn {
