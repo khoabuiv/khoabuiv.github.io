@@ -39,10 +39,9 @@ layout: post
         - **git pull**: Fetch from and integrate with another repo.
         - **git push**: Update remote refs. 
 - **Global configuration**: Git wants you to setup an author name and email address rather than just the default userId. Setup example: <br>
-```
+<code> 
     config --global user.name "User Name" <br>
     config --global user.email "uname@example.com" <br> 
     config --global init.defaultBranch main <br>
-```
-
+</code>
 Settings get written to **./gitconfig** file
