@@ -32,3 +32,19 @@ The mathematician Paul Erdos was the most prolific mathematicians of the 20th ce
 name,position,record,team,year
 Bill Belichick,Head Coach,8-9-0,nwe,2022
 ```
+3. Use Pandas to perform data analysis. 
+
+## Findings: 
+- There are 1227 people who coached in the NFL between 1946 and 2023.
+- Out of 1227, here are the statistics about the Paul Brown's number:
+    - 13 coaches with Paul Brown's number 1.
+    - 99 coaches with Paul Brown's number 2.
+    - 530 coaches with Paul Brown's number 3.
+    - 520 coaches with Paul Brown's number 4.
+    - 49 coaches with Paul Brown's number 5.
+    - 2 coaches with Paul Brown's number 6.
+    - 14 coaches where the Paul Brown's number is undefined.
+- You can find the full JSON output [here](https://github.com/khoabuiv/Brown-s-Number-Public/blob/main/Paul_Brown_numbers.json). 
+
+## Final Thoughts 
+This was a quick project that I worked on over Christmas. I found that the most difficult part of it was cleaning the data. I had of a lot of troubles to categorize parts of the provided strings into diffrent coaches' category for futher cleanings.
