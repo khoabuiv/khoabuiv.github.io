@@ -27,4 +27,8 @@ The mathematician Paul Erdos was the most prolific mathematicians of the 20th ce
 
 ## Methodology
 1. Gather data from [pro-football-reference](https://www.pro-football-reference.com/). The data is consisted of all the people who coached from 1946, the year that Paul Brown started coaching professional American football, to 2023.  
-2. Refine the data to only relevant information and store it in a csv file. For our purposes here, I choose to retain the coach's name, coaching's position, their record, their team, and the year that they coach. 
+2. Refine the data to only relevant information and store it in a csv file which looks like this: 
+```
+name,position,record,team,year
+Bill Belichick,Head Coach,8-9-0,nwe,2022
+```
