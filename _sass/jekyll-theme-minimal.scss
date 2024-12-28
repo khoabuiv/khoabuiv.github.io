@@ -78,6 +78,13 @@ code, pre {
   display: block;
   white-space: pre-wrap;}
 
+pre {
+  padding:8px 15px;
+  background: #2d2d2d;
+  border-radius:5px;
+  border:1px solid #e5e5e5;
+  overflow-x: auto;
+}
 
 table {
   width:100%;
