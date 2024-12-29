@@ -34,7 +34,7 @@ Bill Belichick,Head Coach,8-9-0,nwe,2022
 ```
 3. Use Pandas to perform data analysis. 
 
-## Findings: 
+## Findings
 - There are 1227 people who coached in the NFL between 1946 and 2023.
 - Out of 1227, here are the statistics about the Paul Brown's number:
     - 13 coaches with Paul Brown's number 1.
@@ -45,3 +45,6 @@ Bill Belichick,Head Coach,8-9-0,nwe,2022
     - 2 coaches with Paul Brown's number 6.
     - 14 coaches where the Paul Brown's number is undefined.
 - You can find the full JSON output [here](https://github.com/khoabuiv/Brown-s-Number-Public/blob/main/Paul_Brown_numbers.json). 
+
+## Final Thoughts
+Paul Brown coached in the NFL from 1946 to 1975, and he only worked directly with 13 other coaches. The most notable of this group is Bill Walsh. Despite this, Paul Brown's influence is widespread, as there are only 14 coaches with no direct connection.
