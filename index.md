@@ -38,8 +38,3 @@ I approach my work as my craft, something to perfect on and to be the best that 
 ## Other technological knowledge. 
 - **Encryption:** RSA; Elliptic curve cryptography; SSL/TLS; SCRAM-SHA model.
 - **Methodologies:** DevOps; Agile; Rest API. 
-
-## Topics that I am thinking about
-* Using graph database to empower machine learning models.
-* Leveraging different database models to for different use cases.
-* The current limitations of AI, and how overhype kill technologies. 
