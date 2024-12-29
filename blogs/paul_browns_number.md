@@ -45,6 +45,3 @@ Bill Belichick,Head Coach,8-9-0,nwe,2022
     - 2 coaches with Paul Brown's number 6.
     - 14 coaches where the Paul Brown's number is undefined.
 - You can find the full JSON output [here](https://github.com/khoabuiv/Brown-s-Number-Public/blob/main/Paul_Brown_numbers.json). 
-
-## Final Thoughts 
-This was a quick project that I worked on over Christmas. I found that the most difficult part of it was cleaning the data. I had of a lot of troubles to categorize parts of the provided strings into diffrent coaches' category for futher cleanings.
