@@ -29,4 +29,4 @@ The line has the following meaning:
 
 ## [Version Control with Git](https://khoabuiv.github.io/linux/git.html)
 
-## [Programs in Linux](https://khoabuiv.github.io/linux/programs_in_linux.md.html)
+## [Programs in Linux](https://khoabuiv.github.io/linux/programs_in_linux.md)
