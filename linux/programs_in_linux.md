@@ -76,10 +76,29 @@ Use **CTRL-D** to insert the EOT character.
 - Built-in tools to monitor processes:
     - **top**: Process activity, dynamically updated
     - **uptime**: How long the system is running and the average load
-    - **ps**: Detailed information about processes
-    - **pstree**: A tree of processes and their connections
-    - **mpstat**: Multiple processor usage
+    - **ps**: Detailed information about processes. Example usage:
+    ```
+    root@mariadb:~# ps -o pid,user,uid,priority,cputime,pmem,size,command
+    PID USER       UID PRI     TIME %MEM  SIZE COMMAND
+    3575 root         0  20 00:00:00  0.0  1284 sudo su -
+    3576 root         0  20 00:00:00  0.0   804 su -
+    3577 root         0  20 00:00:00  0.0  1720 -bash
+    3620 root         0  20 00:00:00  0.0  1100 ps -o pid,user,uid,priority,cputi
+    ```
+    - **pstree**: A tree    - **mpstat**: Multiple processor usage
     - **iostat**: CPU utilization and I/O statistics
     - **sar**: Display and collect information about system activity
+ of processes and their connections
     - **numastat**: Information about NUMA (Non-Uniform Memory Architecture)
     - **strace**: Information about all system calls a process makes
+**/proc** contains a subdirectory for each active process, named by the process id (PID). **/proc/self** is the currently executing process. 
+
+## Troubleshooting Technigues
+Steps to procedurally troubleshoot:
+    - Characterize the problem
+    - Reproduce the problem
+    - Do the easy things first
+    - Eliminate possible causes one at a time
+    - Change only one thing at a time; if that does not fix the problem, change it back
+    - Check the system logs (/var/log/messages, /var/log/secure, etc.) for further information
+
