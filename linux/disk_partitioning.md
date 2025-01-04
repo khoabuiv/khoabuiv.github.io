@@ -1,0 +1,6 @@
+---
+layout: post
+---
+
+# Disk types
+

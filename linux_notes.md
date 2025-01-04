@@ -34,3 +34,9 @@ The line has the following meaning:
 ## [Memory Management](https://khoabuiv.github.io/linux/memory_management.html)
 
 ## [I/O Management](https://khoabuiv.github.io/linux/io_management.html)
+
+## [Containers](https://khoabuiv.github.io/linux/containers.html)
+
+## [Virtual Filesystem (VFS)](https://khoabuiv.github.io/linux/vfs.html)
+
+## [Disk Partitioning](https://khoabuiv.github.io/linux//disk_partitioning.html)

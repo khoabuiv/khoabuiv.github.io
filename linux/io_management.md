@@ -14,3 +14,4 @@ avg-cpu:  %user   %nice %system %iowait  %steal   %idle
            0.25    0.02    1.70    0.08    0.00   97.95
 ```
 - **iotop**: must be run as root. It displays a table of current I/O usage and updates periodically, like **top**.
+- **I/O bound**: The CPU is idle while waiting for I/O tasks to finish 
