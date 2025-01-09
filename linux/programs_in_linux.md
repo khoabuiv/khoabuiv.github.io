@@ -2,6 +2,37 @@
 layout: post
 ---
 
+## Using find command:
+Find can use with negation with **!**. As well find to find dates:
+```
+find ! -newermt <date> 
+```
+Find can also be run with exec command as follow:
+```
+find <conditions> -exec <execution command> \;
+```
+
+## Compression algorithms and examples:
+- Zip:
+```
+unzip <filename> -d ​<directory>
+```
+- Tar:
+```
+tar cfv ​<tar filename> <untar name>
+```
+- bzip2:
+```
+​bzip2​ <filename>
+```
+- xz:
+```
+xz <filename>
+```
+
+## Export
+The **export** command is a built-in Bash shell command that exports environmental variables as child processes without affecting the existing environment variables.
+
 ## What's a process?
 - Linux creates a new process for every program that is executed or run.
 - Every process has a **pid** (Process ID), a **ppid** (Parent Process ID), and a **pgid** (Process Group ID). 

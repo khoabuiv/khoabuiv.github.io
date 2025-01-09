@@ -2,6 +2,11 @@
 layout: post
 ---
 
+### How to change the default shell for an user?
+```
+sudo usermod <username> -s "/usr/bin/<shell>"
+```
+
 ### Why use different user accounts?
 - Security reasons, avoid admin mistakes, specific user to run specific processes. 
 
@@ -96,6 +101,16 @@ The username in each record must match exactly that found in **/etc/passwd**
 - To force user to change password the next time they log in: <code> sudo chage -d 0 {username} </code>
 
 ### Managing Root Account:
+#### How to grant root access?
+```
+sudo visudo
+>> <username> ALL=(ALL) NOPASSWD:ALL 	
+```
+Where the format is as follow:
+```
+user hosts=(users:groups) commands
+```
+
 - **sudo** allow regular user accounts to switch to root or other user. Access to **sudo** can be configure in **/etc/sudoers** and **/etc/sudoers.d**.
 - **su** creates a sub-shell that allows user to elevated privileges until they exit that shell.
 - We have SSH to manage root access across a network. SSH is configure with **/etc/ssh/sshd_config**, and PAM through **pam_securetty.so** associated with **/etc/securetty** which manages which devices can connect. 

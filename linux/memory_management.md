@@ -3,6 +3,25 @@ layout: post
 ---
 # Memory Management
 
+## How to configure and manage swap space?
+1. Create a swap file:
+```
+sudo dd if=/dev/zero of=/swapfile bs=1M count=1024
+```
+2. Set the file permission to 600:
+```
+sudo chmod 600 /swapfile
+```
+3. Make the file usable as swap space:
+```
+sudo mkswap /swapfile
+```
+4. Active the swap file:
+```
+sudo swapon /swapfile
+```
+5. To  deactive 
+
 ## Memory Monitoring Tools
 - **free**: Brief summary of memory usage:
 ```

@@ -37,6 +37,29 @@ The line has the following meaning:
 
 ## [Containers](https://khoabuiv.github.io/linux/containers.html)
 
-## [Virtual Filesystem (VFS)](https://khoabuiv.github.io/linux/vfs.html)
+## [Disk Management](https://khoabuiv.github.io/linux//disk_management.html)
 
-## [Disk Partitioning](https://khoabuiv.github.io/linux//disk_partitioning.html)
+## [Kernel Management](https://khoabuiv.github.io/linux/kernel_management.html)
+
+## [Network](https://khoabuiv.github.io/linux/network.html)
+
+## Using Cron
+- Be careful of the difference between system-wide cron(Runs by root) and user cron(run by users)
+- Crontabs are at **/etc/crontab**
+
+Cronline: 
+```
+* * * * * <command>
+```
+1: Minute
+2: Hour
+3: Day of the month
+4: Month of the year
+5: Day of the week
+Use / to indicate repeat of every time interval.
+To add a new cronjob. Run:
+```
+crontab <filename>
+```
+
+## 

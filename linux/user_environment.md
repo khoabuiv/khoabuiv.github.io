@@ -39,3 +39,9 @@ The child process is allowed to modify exported variables, but the change in thi
 - To assign an alias: <code> alias name=command </code>
 - Make an alias persistent in **~/.bashrc**
 - **unalias** to get rid of one. 
+
+### How to grant root access?
+```
+sudo visudo
+>> <username> ALL=(ALL) NOPASSWD:ALL 	
+```
