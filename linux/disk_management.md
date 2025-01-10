@@ -12,6 +12,23 @@ layout: post
         - Change time.
 Filenames are stored in the directory, not the inode. 
 
+## LVM Storage management
+- There are three components of LVM: Physical; Volume; Logical.
+- How to view the block device? **lsblk, pvsm, vgs**
+- To reduce a VG: 
+```
+sudo vgreduce <volume name> <filesystem>
+```
+- To add a new VG: 
+```
+vgcreate <volume name> <filesystem>
+```
+- To create a new LV for a VG: 
+```
+sudo lvcreate --size <size> --name <directory 1> ... <directory n> 
+```
+This is stored on **/dev/directory_1/.../directory_n**
+
 ## How to format a disk?
 Use mkfs as follow
 ```

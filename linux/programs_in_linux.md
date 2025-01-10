@@ -2,6 +2,52 @@
 layout: post
 ---
 
+## Build from source:
+1. Extract with: 
+```
+tar xjf <tarfile>
+```
+2. Make the configuration which can be check with:
+```
+./configure -help
+```
+3. Run the following:
+```
+make
+make install
+```
+
+## Regular expression basics:
+You can use the following to find and replace in vim:
+```
+:s/PATTERN/REPLACEMENT/
+```
+Use the following to replace all:
+```
+:s/PATTERN/REPLACEMENT/g
+```
+- To search for lines that start with a PATTERN: **^PATTERN**
+- To search for lines that contains a PATTERN: **.*PATTERN**
+- To search for lines that end with a PATTERN: **PATTERN$**
+
+## Text Output:
+To do **stdout** output:
+```
+1>
+```
+To do **stderr** output:
+```
+2>
+```
+To do both 
+```
+2>&1
+```
+Exit code number:
+```
+echo $?
+```
+
 ## Using find command:
 Find can use with negation with **!**. As well find to find dates:
 ```

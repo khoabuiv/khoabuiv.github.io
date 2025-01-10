@@ -11,6 +11,9 @@ layout: post
     - **SHELL**: User's default shell.
     - **EDITOR**: User's default editor. 
 
+### Managing users limits
+Users can be manage various limits in **/etc/security/limits.conf**
+
 ### How to set environment variables:
 - Run <code> VARIABLE=value </code>
 - To add a new variable permanently. Edit <code> ~/.bashrc </code> to include **VARIABLE=value** and then start a new shell. 

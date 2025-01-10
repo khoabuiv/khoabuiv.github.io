@@ -3,6 +3,40 @@ layout: post
 ---
 # Network
 
+## Managing SSH
+- **sshd_config** is the daemon config file to manage connection to the server
+- **ssh_config** file is the ssh client configuration file. The client configuration file only has bearing on when you use the ssh command to connect to another ssh host. 
+
+## How to enable load balancing with nginx
+1. Go to /etc/nginx/sites-enabled and edit an available files:
+2. Redirect traffic example:
+```
+server {
+        listen 1111 default_server;
+        listen [::]:1111 default_server;
+
+        server_name _;
+
+        location / {
+                return 200 'app1\n';
+        }
+}
+```
+3. Load balancing example:
+```
+
+```
+
+## Managing NFS
+NFS config can be found at **/etc/exports**. After making changes to the config, you need to load with **exportfs**:
+```
+exportfs -ra
+```
+Then check with **showmount**:
+```
+showmount -e
+```
+
 ## Using SSHFS to mount remote directory
 SSHFS works similar to how mount work, but remotely. It can be run as follow:
 ```
@@ -22,11 +56,21 @@ Note: If you are SSHing then make sure to enable SSH before enabling ufw as foll
 ```
 ufw allow ssh
 ```
-### How to redirect a port?
-Use ufw as follow:
+### Using UFW
+Make sure to get the current localhost ip address first as follow:
 ```
-ufw route allow from any port <original> to 127.0.0.1 port <redirect destination>
+ip addr
 ```
+- To re-direct
+```
+iptables -A PREROUTING -i eth0 -t nat -p tcp --dport <original port> -j REDIRECT --to-port <destination port>
+```
+To block outgoing traffic:
+```
+ufw deny out from any to <destination ip>
+```
+
+
 
 - Find current hostname:
 ```
