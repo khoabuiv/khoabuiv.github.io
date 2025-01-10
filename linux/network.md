@@ -24,7 +24,19 @@ server {
 ```
 3. Load balancing example:
 ```
-
+upstream backend {
+        # when no load balancing method is specified, Round Robin is used
+        server 127.0.0.1:1111;
+        server 127.0.0.1:2222;
+ }
+ server {
+        listen 8000 default_server;
+        listen [::]:8000 default_server;
+        server_name _;
+        location / {
+                proxy_pass http://backend; # reverse proxy to the requested url
+        }
+ }
 ```
 
 ## Managing NFS

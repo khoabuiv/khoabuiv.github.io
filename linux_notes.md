@@ -61,5 +61,3 @@ To add a new cronjob. Run:
 ```
 crontab <filename>
 ```
-
-## 
