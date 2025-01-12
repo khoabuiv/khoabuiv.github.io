@@ -3,6 +3,27 @@ layout: post
 ---
 # Network
 
+## Adding a static route
+Use:
+```
+ip route add <ip address> via <ip address>
+```
+
+## Create and enforce MAC using SELinux
+1. Check SELinux status:
+```
+sestatus
+```
+2. Set SELinux mode:
+```
+setenforce <0|1>
+```
+To make this persistent, change in **/etc/selinux/config** file and set:
+```
+SELINUX=enforcing
+```
+3. 
+
 ## Managing SSH
 - **sshd_config** is the daemon config file to manage connection to the server
 - **ssh_config** file is the ssh client configuration file. The client configuration file only has bearing on when you use the ssh command to connect to another ssh host. 

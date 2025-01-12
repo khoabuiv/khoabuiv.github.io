@@ -20,11 +20,11 @@ make install
 ## Regular expression basics:
 You can use the following to find and replace in vim:
 ```
-:s/PATTERN/REPLACEMENT/
+:%s/PATTERN/REPLACEMENT/
 ```
 Use the following to replace all:
 ```
-:s/PATTERN/REPLACEMENT/g
+:%s/PATTERN/REPLACEMENT/g
 ```
 - To search for lines that start with a PATTERN: **^PATTERN**
 - To search for lines that contains a PATTERN: **.*PATTERN**
@@ -58,23 +58,22 @@ Find can also be run with exec command as follow:
 find <conditions> -exec <execution command> \;
 ```
 
-## Compression algorithms and examples:
-- Zip:
+## Using tar and comnpression algorithms:
+Main three tar options:
 ```
-unzip <filename> -d ​<directory>
+tar -xf #Extract files
+tar -cf #Compress files
+tar -tf #List files
 ```
-- Tar:
+To compress a directory:
 ```
-tar cfv ​<tar filename> <untar name>
+tar -cf <compress_file_name> -C <directory_name> .
 ```
-- bzip2:
+To use a specific compression algortihm with its flag:
 ```
-​bzip2​ <filename>
+tar -I '<compression_name> <flag>' 
 ```
-- xz:
-```
-xz <filename>
-```
+
 
 ## Export
 The **export** command is a built-in Bash shell command that exports environmental variables as child processes without affecting the existing environment variables.
