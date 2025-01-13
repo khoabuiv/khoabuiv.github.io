@@ -4,7 +4,7 @@ layout: post
 # Network
 
 ## Adding a static route
-Use:
+- Use:
 ```
 ip route add <ip address> via <ip address>
 ```
@@ -22,7 +22,6 @@ To make this persistent, change in **/etc/selinux/config** file and set:
 ```
 SELINUX=enforcing
 ```
-3. 
 
 ## Managing SSH
 - **sshd_config** is the daemon config file to manage connection to the server
