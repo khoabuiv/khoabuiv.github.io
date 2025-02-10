@@ -19,6 +19,13 @@ The line has the following meaning:
 
 3. Add the following to <code> PATH=$PATH:/usr/sbin:/sbin </code> to the <code> .bashrc </code> file in the home directory. 
 
+## Common Bash Redirectors:
+- **>**: Redirects STDOUT. If redirection is to a file, the current contents of that file are overwritten.
+- **>>**: Redirects STDOUT in append mode. If output is written to a file, the output is appended to that file.
+- **2>**: Redirects STDERR.
+- **2>&1**: Redirects STDERR to the same destination as STDOUT.
+- **<**: Redirects STDIN.
+
 ## [Filesystem Tree Layout](https://khoabuiv.github.io/linux/filesystem_tree_layout.html)
 
 ## [User Environment](https://khoabuiv.github.io/linux/user_environment.html)

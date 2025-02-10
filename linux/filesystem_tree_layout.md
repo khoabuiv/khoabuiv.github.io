@@ -1,6 +1,12 @@
 ---
 layout: post
 ---
+
+### Essential Commands: 
+- **mount**: Gives an overview of all mounted devices.
+- **findmnt**: Shows mounts and the relationship that exists between the different mounts.
+- **df**: Shows available disk space on mounted devices.
+
 ### General Notes:
 - Linux consists of one big logical filesystem tree. 
 - There maybe be many distinct filesystems mounted to the system at various points appearing as subdirectories. 
@@ -15,6 +21,13 @@ layout: post
     - Restore the system from backups on external media.
     - Recover and/or repair the system. 
 **Note**: no application or package should create new subdirectories of the root directory.
+
+### Environment Configuration Files:
+- **/etc/profile**: This is the generic file that is processed by all users upon login.
+- **/etc/bashrc**: This file is processed when subshells are started.
+- **~/.bash_profile**: In this file, user-specific login shell variables can be defined.
+- **~/.bashrc**: In this user-specific file, subshell variables can be defined.
+
 
 
 ### Essential Directories: 
